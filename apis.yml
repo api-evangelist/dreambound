@@ -1,8 +1,28 @@
 aid: dreambound
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dreambound.png
 name: Dreambound
-description: Dreambound is a company surfaced as a portfolio company of union-square-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Dreambound is a career and technical education marketplace that helps job
+  seekers discover, compare, and enroll in vocational training programs across healthcare,
+  technology, business, and the skilled trades. The platform aggregates thousands of
+  schools and hundreds of programs, letting students filter by location, schedule, format
+  (online, hybrid, or in person), and price, with enrollment coaches guiding them into
+  certifications such as certified nursing assistant, medical billing, phlebotomy, and
+  sterile processing. The service is free for students and monetizes through schools and
+  workforce partners who list and advertise their programs. Backed by Union Square Ventures,
+  Collaborative Fund, and 8VC, Dreambound is added to the API Evangelist network as a
+  company profile; it does not currently publish a public developer program, API, or
+  documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/dreambound/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- EdTech
+- Workforce Development
+- Career Training
+- Vocational Education
+- Marketplace
+- Healthcare Training
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://dreambound.com
+- type: About
+  url: https://dreambound.com/about
+- type: Blog
+  url: https://dreambound.com/blog
+- type: TermsOfService
+  url: https://dreambound.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://dreambound.com/privacy-policy
+- type: SignUp
+  url: https://school.dreambound.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
